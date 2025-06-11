@@ -52,7 +52,7 @@ Idéal pour découvrir les bases de la génération augmentée par la recherche 
 ## 🔧 Prérequis
 
 - Un projet Google Cloud avec Vertex AI et IAM activés
-- Python 3.8+
+- Python 3.10+
 - gcloud CLI installé et configuré
 - Bibliothèques Python : vertexai, langchain, google-auth, pandas, etc. (voir requirements.txt si fourni)
 

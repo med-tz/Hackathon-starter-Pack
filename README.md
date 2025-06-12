@@ -64,21 +64,7 @@ macOS est livré avec une version native de Python. Actuellement, il s’agit g�
   - Installez PIP : `sudo yum install -y python3-pip`
 
 ##  Notebooks
-### 1. 🔐 Authentification locale via ADC avec impersonation
-
-📄 `01_authentication_adc_impersonation.ipynb`
-
-Ce notebook montre comment authentifier un environnement local avec un compte de service Google Cloud en utilisant les Application Default Credentials (ADC), combinées à l’option d’impersonation. Il permet ainsi de travailler de manière sécurisée, sans avoir à stocker de clés sensibles localement.
-
-Fonctionnalités couvertes :
-- Utilisation de gcloud auth application-default login
-- Configuration de l’impersonation via les flags gcloud
-- Vérification des credentials dans un notebook
-- Exemple d'appel authentifié à Vertex AI
-
----
-
-### 2. ✨ Prompt Engineering – Texte & Multimodal
+### 1. ✨ Prompt Engineering – Texte & Multimodal
 
 📄 `02_prompt_engineering_notebook.ipynb`  
 

@@ -75,7 +75,7 @@ Deux notebooks pour explorer les bonnes pratiques de conception de prompts pour 
 
 ---
 
-### 3. 🧠 Exemple de Retrieval-Augmented Generation (RAG)
+### 2. 🧠 Exemple de Retrieval-Augmented Generation (RAG)
 
 📄 `03_rag_vertex_ai_example.ipynb`
 

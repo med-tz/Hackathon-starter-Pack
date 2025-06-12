@@ -66,7 +66,7 @@ macOS est livré avec une version native de Python. Actuellement, il s’agit g�
 ##  Notebooks
 ### 1. ✨ Prompt Engineering – Texte & Multimodal
 
-📄 `02_prompt_engineering_notebook.ipynb`  
+📄 `01_prompt_engineering_notebook.ipynb`  
 
 Deux notebooks pour explorer les bonnes pratiques de conception de prompts pour les modèles de langage.
 
@@ -77,7 +77,7 @@ Deux notebooks pour explorer les bonnes pratiques de conception de prompts pour 
 
 ### 2. 🧠 Exemple de Retrieval-Augmented Generation (RAG)
 
-📄 `03_rag_vertex_ai_example.ipynb`
+📄 `02_rag_vertex_ai_example.ipynb`
 
 Ce notebook montre comment mettre en place un flux de type RAG simple, combinant :
 

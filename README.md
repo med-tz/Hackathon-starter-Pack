@@ -73,7 +73,7 @@ Deux notebooks pour explorer les bonnes pratiques de conception de prompts pour 
 - Prompt engineering sur du texte (LLM) : structuration, formats, templates.
 - Prompt engineering multimodal (texte + image) : création de prompts combinés, appels aux modèles multimodaux de Vertex AI.
 
----
+
 
 ### 2. 🧠 Exemple de Retrieval-Augmented Generation (RAG)
 
@@ -88,7 +88,7 @@ Ce notebook montre comment mettre en place un flux de type RAG simple, combinant
 
 Idéal pour découvrir les bases de la génération augmentée par la recherche avec Vertex AI.
 
----
+
 
 
 ## 🚀 Lancement rapide

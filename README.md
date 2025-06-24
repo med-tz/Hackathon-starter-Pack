@@ -62,7 +62,7 @@ macOS est livré avec une version native de Python. Actuellement, il s’agit g�
 - **Distributions RHEL (CentOS)** nécessitent généralement PIP :
   - Installez le paquet EPEL : `sudo yum install -y epel-release`
   - Installez PIP : `sudo yum install -y python3-pip`
-### Installation du SDK Google Cloud
+### ☁️ Installation du SDK Google Cloud
 
 Le SDK Google Cloud est un ensemble d’outils en ligne de commande permettant de gérer vos ressources et services sur Google Cloud Platform.
 

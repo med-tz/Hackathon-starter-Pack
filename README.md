@@ -62,7 +62,35 @@ macOS est livré avec une version native de Python. Actuellement, il s’agit g�
 - **Distributions RHEL (CentOS)** nécessitent généralement PIP :
   - Installez le paquet EPEL : `sudo yum install -y epel-release`
   - Installez PIP : `sudo yum install -y python3-pip`
+### Installation du SDK Google Cloud
 
+Le SDK Google Cloud est un ensemble d’outils en ligne de commande permettant de gérer vos ressources et services sur Google Cloud Platform.
+
+
+
+1. Téléchargez l’installateur ici : [Google Cloud SDK](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe?hl=fr)
+
+2. Exécutez le fichier `.exe` téléchargé et suivez les instructions d'installation.
+
+3. Une fois l'installation terminée, cochez les options suivantes :
+   - **Start Google Cloud SDK Shell**
+   - **Run 'gcloud init' to configure the Google Cloud CLI**
+
+4. Une fenêtre de commande s’ouvrira automatiquement :
+   - Choisissez **"Create a new configuration"** lorsqu'on vous le propose.
+   - Entrez un nom pour la configuration.
+   - Dans **"Sélectionner un compte"**, choisissez **"Sign in with a new Google Account"**.
+   - Un onglet s’ouvrira dans votre navigateur où vous devrez vous connecter avec votre compte **L'Oréal**.
+   - Dans **"Choisir un projet cloud à utiliser"**, sélectionnez **"Saisir un ID de projet"** et entrez l’ID suivant : `oa-bta-learning-dv`
+   - Si un message indique que l'ID du projet n'existe pas, tapez `y` pour continuer.
+
+5. Enfin, dans la ligne de commande, tapez la commande suivante :
+
+```bash
+gcloud auth application-default login --impersonate-service-account SERVICE_ACCT_EMAIL
+```
+
+Remplacez `SERVICE_ACCT_EMAIL` par l’adresse email du compte de service assigné à votre équipe.
 ##  Notebooks
 ### 1. ✨ Prompt Engineering – Texte & Multimodal
 

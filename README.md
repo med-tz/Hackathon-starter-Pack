@@ -124,4 +124,4 @@ Idéal pour découvrir les bases de la génération augmentée par la recherche 
 1. Clonez le dépôt :
 ```bash
 git clone https://github.com/votre-utilisateur/hackathon-genai.git
-cd hackathon-genai
+cd Hackathon-starter-Pack

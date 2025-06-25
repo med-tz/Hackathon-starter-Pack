@@ -125,3 +125,10 @@ Idéal pour découvrir les bases de la génération augmentée par la recherche 
 ```bash
 git clone https://github.com/med-tz/Hackathon-starter-Pack.git
 cd Hackathon-starter-Pack
+```
+2. Install the requirement file:
+```bash
+pip install -r requirements.txt
+```
+
+

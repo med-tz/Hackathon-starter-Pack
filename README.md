@@ -68,7 +68,7 @@ Le SDK Google Cloud est un ensemble d’outils en ligne de commande permettant d
 
 
 
-1. Téléchargez l’installateur ici : [Google Cloud SDK](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe?hl=fr)
+1. Téléchargez l’installateur ici : [Google Cloud SDK](https://cloud.google.com/sdk/docs/install?hl=fr#mac)
 
 2. Exécutez le fichier `.exe` téléchargé et suivez les instructions d'installation.
 

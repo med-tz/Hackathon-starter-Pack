@@ -66,17 +66,18 @@ macOS est livré avec une version native de Python. Actuellement, il s’agit g�
 
 Le SDK Google Cloud est un ensemble d’outils en ligne de commande permettant de gérer vos ressources et services sur Google Cloud Platform.
 
+#### **Windows**
 
+1. Visiter la page web : [Google Cloud SDK](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe?hl=fr)
+2. Suivez les instructions d’installation selon votre système d’exploitation.
 
-1. Téléchargez l’installateur ici : [Google Cloud SDK](https://cloud.google.com/sdk/docs/install?hl=fr#mac)
+3. Exécutez le fichier `.exe` téléchargé et suivez les instructions d'installation.
 
-2. Exécutez le fichier `.exe` téléchargé et suivez les instructions d'installation.
-
-3. Une fois l'installation terminée, cochez les options suivantes :
+4. Une fois l'installation terminée, cochez les options suivantes :
    - **Start Google Cloud SDK Shell**
    - **Run 'gcloud init' to configure the Google Cloud CLI**
 
-4. Une fenêtre de commande s’ouvrira automatiquement :
+5. Une fenêtre de commande s’ouvrira automatiquement :
    - Choisissez **"Create a new configuration"** lorsqu'on vous le propose.
    - Entrez un nom pour la configuration.
    - Dans **"Sélectionner un compte"**, choisissez **"Sign in with a new Google Account"**.
@@ -84,13 +85,46 @@ Le SDK Google Cloud est un ensemble d’outils en ligne de commande permettant d
    - Dans **"Choisir un projet cloud à utiliser"**, sélectionnez **"Saisir un ID de projet"** et entrez l’ID suivant : `oa-bta-learning-dv`
    - Si un message indique que l'ID du projet n'existe pas, tapez `y` pour continuer.
 
-5. Enfin, dans la ligne de commande, tapez la commande suivante :
+6. Enfin, dans la ligne de commande, tapez la commande suivante :
 
 ```bash
 gcloud auth application-default login --impersonate-service-account SERVICE_ACCT_EMAIL
 ```
 
 Remplacez `SERVICE_ACCT_EMAIL` par l’adresse email du compte de service assigné à votre équipe.
+
+#### **macOS**
+1. Téléchargement
+
+> Remarque : Pour connaître le nom de votre architecture matérielle, exécutez :
+```
+uname -m
+```
+
+| Plateforme | Package | Taille | SHA256 |
+|------------|---------|--------|--------|
+| macOS 64 bits (x86_64) | `google-cloud-cli-darwin-x86_64.tar.gz`(https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-darwin-x86_64.tar.gz?hl=fr) | 55,6 Mo | `5d9d88f62ae3101eb9a5655758418f263c51a4e6687507f1b6ba5e942b42d960` |
+| macOS 64 bits (ARM64, Apple silicon) | `google-cloud-cli-darwin-arm.tar.gz`(https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-darwin-arm.tar.gz?hl=fr) | 55,5 Mo | `f7e6771c20d0dd2be57d921d060a47bdc21a5a5ca6f958adb15b667e05896a68` |
+| macOS 32 bits (x86) | `google-cloud-cli-darwin-x86.tar.gz`(https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-darwin-x86.tar.gz?hl=fr) | 54,1 Mo | `36bb73904c344f240a4ab3df035772f9048d6490a631d860945d079496023264` |
+
+
+2. Installation
+
+Extrayez l'archive téléchargée dans un dossier de votre choix (par ex. dans le répertoire d'accueil) :
+
+```
+tar -xf google-cloud-cli-darwin-arm.tar.gz
+```
+
+> Pour remplacer une installation existante, supprimez d'abord le dossier `google-cloud-sdk` avant d'extraire à nouveau.
+
+3. Lancer l'installation :
+
+Mode lecteur d'écran :
+```
+./google-cloud-sdk/install.sh --screen-reader=true
+```
+
 ##  Notebooks
 ### 1. ✨ Prompt Engineering – Texte & Multimodal
 
